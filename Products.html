@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Cool Bakes Club</title>
+
+<meta charset="utf-8">
+  <!-- The title is what will appear on the tab in the browser. -->
+<title>My Shopping Cart</title>
+
+    <!-- You need to link css and any external code in the head. -->
+
+<!-- The two links below link to Jquery which allows for easier and more efficient use of javascript and bootstrap which allows you to add themes to your webpages. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cart.css">
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+Welcome to my experimental website, feel free to leave feedback.
+<div class="topnav" id="myTopnav">
+  <a href="index.html"link text>Home</a>
+  <a href="Enquiries.html">Enquiries</a>
+  <a href="Contact.html">Contact</a>
+  <a class="active" href="Products.html">Products</a>
+
+<div class="topnav-right">
+  <a href="Login.html" class="button">Login/sign up </a> <!-- login button-->
+</div>
+
+  <a href="java.java;" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <!-- navbar-->
+
+  <!-- Div containing products -->
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm-9">
+          <h1>Products</h1>
+          <div class="row">
+            <!-- Product 1-->
+            <div class="col col-xs-12 col-md-6 col-lg-4">
+
+              <div>
+                <img src="BlueberryTea.jpg" width="150px" height="200px">
+              </div>
+
+            <h2>Organic Bluberry Tea</h2>
+            <p> Refreshing and invigorating tea &nbsp &nbsp (80 bags per order)</p>
+            <p>&pound2.99</p>
+            <p><input type="submit" value="Add to cart" class="btn"/></p>
+            </div>
+
+    <!-- Product 2-->
+            <div class="col col-xs-12 col-md-6 col-lg-4">
+              <div>
+                <img src="mint tea.png" width="150px" height="200px">
+              </div>
+
+            <h2>Twinings Doube Mint </h2>
+            <p>Refreshing and invigorating tea &nbsp &nbsp (20 bags per order)</p>
+            <p>&pound1.69</p>
+            <p><input type="submit" value="Add to cart" class="btn"/></p>
+            </div>
+            <!-- Product 3-->
+                    <div class="col col-xs-12 col-md-6 col-lg-4">
+                      <div>
+                        <img src="lemonTea.jpg" width="150px" height="200px">
+                      </div>
+
+                    <h2>Lipton Lemon Tea</h2>
+                    <p>Refreshing and invigorating tea &nbsp &nbsp (20 bags per order)</p>
+                    <p>&pound3.35</p>
+                    <p><input type="submit" value="Add to cart" class="btn"/></p>
+                    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+    <!-- This section adds the shipping address form when you confirm order. -->
+        <div id="calculator">
+        </div>
+        <form>
+              <div id='shipping-form'>
+                  <div>
+                      <label>Name</label>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div>
+                      <label>Address Line 1</label>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div>
+                      <label>Address Line 2</label>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div>
+                      <label>City</label>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div>
+                      <label>County</label>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div>
+                      <label>Post Code</label>
+                      <input type="text" class="form-control">
+                  </div>
+              <div>
+                  <input type="button" value="Submit" id="finish" />
+              </div>
+          </form>
+        </div>
+
+
+    <!--Link to javascript for cart-->
+  <script src="cart.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+  </html>
